@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colorSwitcher{
+    text-align: right;
+}
+.clr{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#white{
+    background-color: #ffffff;
+}
+#Grey{
+    background-color: #800080;
+}
+#Yellow{
+    background-color: #ffff00;
+}
+#Aqua{
+    background-color: #00ffff;
+}
